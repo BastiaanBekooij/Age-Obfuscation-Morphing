@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# large data files
+dataset/
+datasets/
+images/
+
 # C extensions
 *.so
 
