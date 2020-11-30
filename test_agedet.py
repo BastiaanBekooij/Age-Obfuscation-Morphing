@@ -47,15 +47,18 @@ faceNet=cv2.dnn.readNet(faceModel,faceProto)
 ageNet=cv2.dnn.readNet(ageModel,ageProto)
 genderNet=cv2.dnn.readNet(genderModel,genderProto)
 
+# choose between webcam and image
 #video=cv2.VideoCapture(args.image if args.image else 0)
 im=cv2.imread('datasets/test/teun2.jpg')
-#h,w,c = im.shape
+h,w,c = im.shape
 
 frame=im
 padding = 20
 
 #while cv2.waitKey(1)<0 :
-for i in range(1):
+once = True
+while once == True:
+    once = False
     #hasFrame,frame=video.read()
     #frame = "datasets/test/" + 'acaro.png'
     #cv2.imshow("test",frame)
