@@ -28,31 +28,6 @@ imgpaths = facemorpher.list_imgpaths('C:/Users/murie/Documents/school/master/1B/
 # To average, supply an array of face images:
 facemorpher.averager(imgpaths, plot=True)
 
-ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image", required=True,
-	help="path to input image")
-ap.add_argument("-f", "--face", required=True,
-	help="path to face detector model directory")
-ap.add_argument("-a", "--age", required=True,
-	help="path to age detector model directory")
-ap.add_argument("-c", "--confidence", type=float, default=0.5,
-	help="minimum probability to filter weak detections")
-args = vars(ap.parse_args())
-
-AGE_BUCKETS = ["(0-2)", "(4-6)", "(8-12)", "(15-20)", "(25-32)",
-	"(38-43)", "(48-53)", "(60-100)"]
-
-print("[INFO] loading face detector model...")
-prototxtPath = os.path.sep.join([args["face"], "deploy.prototxt"])
-weightsPath = os.path.sep.join([args["face"],
-	"res10_300x300_ssd_iter_140000.caffemodel"])
-faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
-# load our serialized age detector model from disk
-print("[INFO] loading age detector model...")
-prototxtPath = os.path.sep.join([args["age"], "age_deploy.prototxt"])
-weightsPath = os.path.sep.join([args["age"], "age_net.caffemodel"])
-ageNet = cv2.dnn.readNet(prototxtPath, weightsPath)
-
 
 onder_10 = []
 onder_20 = []
