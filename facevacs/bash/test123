@@ -1,0 +1,11 @@
+#!/bin/bash
+
+FILES=/home/s2393832/datasets/FG_NET/*
+DIR=/opt/FVSDK_9_4_0/examples/cpp/x86_64/
+module load FaceVacs-9.4.0
+
+for f in $FILES
+do
+	$DIR/acquisition -cfg /opt/FVSDK_9_4_0/etc/frsdk.cfg -img $f
+
+done
