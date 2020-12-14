@@ -1,0 +1,26 @@
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 189.655 , 255.703 ] , width=114.532, confidence=3.32102
+Found eyes: first  [ 125.785 , 258.06 ]  confidence=7.63125
+            second  [ 251.057 , 254.595 ]  confidence=7.63125
+Characteristics: 
+	 isColor():  false 
+	 width(): 408
+	 height(): 502
+	 numberOfFaces(): 1
+	 exposure(): 161.003
+	 grayScaleDensity(): 211
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -2.28943
+	 sharpness(): 2.57493
+	 eye0Open(): 2.50676
+	 eye1Open(): 3.35642
+	 eye0GazeFrontal(): 0.367989
+	 eye1GazeFrontal(): 1.82901
+	 eye0Tinted(): 9.4
+	 eye1Tinted(): 7.2032
+	 poseAngleRoll(): 0.0276599
+	 deviationFromFrontalPose(): 0.306977
+	 isMale(): -1.27321
+	 age(): 6
