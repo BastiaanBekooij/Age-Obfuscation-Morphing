@@ -1,0 +1,19 @@
+#!/bin/bash
+
+FILES=/home/s2393832/datasets/CARC/*
+DIR=/opt/FVSDK_9_4_0/examples/cpp/x86_64
+
+module load FaceVacs-9.4.0
+
+for f in $FILES
+do
+	#$DIR/acquisition -cfg /opt/FVSDK_9_4_0/etc/frsdk.cfg -img $f > /home/s2393832/output/out.txt
+	#grep 'age():' /home/s2393832/output/out.txt | sed 's/^.*: //' >> /home/s2393832/output/measCARC.txt
+	
+	# remove everything before last slash /
+	# remove everything after first _
+	first=$(sed 's|.*/||'  <<< "$f") # everything after last slash
+	cut -d "_" -f1 <<< "$first" >> /home/s2393832/output/realCARC.txt
+	
+	echo acquisition done
+done

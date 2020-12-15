@@ -2,21 +2,18 @@
 
 FILES=/home/s2393832/datasets/FG_NET/*
 DIR=/opt/FVSDK_9_4_0/examples/cpp/x86_64
-#. /opt/FVSDK_9_4_0/include/FRsdk/portrait.h
 
 module load FaceVacs-9.4.0
 
-get_age () {
-#	cpp /opt/FVSDK_9_4_0/examples/cpp/acquisition.cc /home/s2393832/output/out2.txt # does not work bc of header dirs	
-#	FRsdk.Portrait::age
-#	age = $pc.age
-#	echo $age  
-	echo acquisition done
-}
-
-
 for f in $FILES
 do
-	$DIR/acquisition -cfg /opt/FVSDK_9_4_0/etc/frsdk.cfg -img $f >> /home/s2393832/output/out.txt
-	get_age
+	$DIR/acquisition -cfg /opt/FVSDK_9_4_0/etc/frsdk.cfg -img $f > /home/s2393832/output/out.txt
+	grep 'age():' /home/s2393832/output/out.txt | sed 's/^.*: //' >> /home/s2393832/output/ageoutput.txt
+	
+	# everything after last dot, if not working try 's/.{4\}$//'
+	# remove everything before first (only) A
+	first=$(sed 's/.\{4\}$//' <<< "$f") 
+	cut -d "A" -f2- <<< "$first" >> /home/s2393832/output/realage.txt
+	
+	echo acquisition done
 done
