@@ -7,6 +7,7 @@ __pycache__/
 dataset/
 datasets/
 images/
+DBs/
 *.caffemodel
 
 # C extensions
