@@ -1,0 +1,2199 @@
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 128.442 , 229.057 ] , width=96.688, confidence=1.73508
+Found eyes: first  [ 83.0925 , 236.08 ]  confidence=5.02318
+            second  [ 178.888 , 221.353 ]  confidence=5.02318
+Characteristics: 
+	 isColor():  true 
+	 width(): 362
+	 height(): 436
+	 numberOfFaces(): 1
+	 exposure(): 114.427
+	 grayScaleDensity(): 153
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): 0.15285
+	 sharpness(): 3.53793
+	 eye0Open(): 3.50702
+	 eye1Open(): 2.3674
+	 eye0GazeFrontal(): 1.06583
+	 eye1GazeFrontal(): 1.48571
+	 eye0Red(): 0.0897558
+	 eye1Red(): 0.150232
+	 naturalSkinColour(): 1
+	 eye0Tinted(): 22.313
+	 eye1Tinted(): 27.5
+	 poseAngleRoll(): 0.153737
+	 deviationFromFrontalPose(): 1.83063
+	 isMale(): 0.603348
+	 age(): 38
+	 mouthClosed(): 1.53813
+	 glasses(): 1.37626
+	 eye0():  [ 83.0925 , 236.08 ] 
+	 eye1():  [ 178.888 , 221.353 ] 
+	 eyeDistance(): 96.9207
+	 faceCenter():  [ 130.99 , 228.716 ] 
+	 widthOfHead(): 204.581
+	 lengthOfHead(): 317.971
+	 chin(): 164.652
+	 crown(): 153.319
+	 ear0(): 91.4316
+	 ear1(): 113.149
+	 face surrounding box: ((39, 75), (245, 394))
+
+Portrait Feature: 
+	 ethnicity(): asian
+	 wearsGlasses():  true
+Left Eye: (83.1461, 237.282); Right Eye: (178.511, 219.805)
+Mouth: (140.662, 332.85)
+Nasion: (115.816, 229.044), NoseTip: (111.991, 296.367)
+	 under18():  false 
+Left Eye: (83.1461, 237.282); Right Eye: (178.511, 219.805)
+Mouth: (140.662, 332.85)
+Nasion: (115.816, 229.044), NoseTip: (111.991, 296.367)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Failed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 hasNaturalSkinColour():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Failed 
+	 isFrontalBestPractice():  Failed 
+	 isLightingUniform():  Failed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 eyesNotRedBestPractice():  Passed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 130.8 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 218 ) 
+	 leftBoundCenteredFace(): 0.45 ( 162.9 ) 
+	 rightBoundCenteredFace(): 0.55 ( 199.1 ) 
+	 minHeadWidth(): 180 ( 204.581 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.76947 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.37119 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A40.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A40.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 164.225 , 186.641 ] , width=73.5402, confidence=2.47839
+Found eyes: first  [ 124.367 , 191.693 ]  confidence=4.71941
+            second  [ 204.048 , 184.443 ]  confidence=4.71941
+Characteristics: 
+	 isColor():  false 
+	 width(): 321
+	 height(): 386
+	 numberOfFaces(): 1
+	 exposure(): 135.017
+	 grayScaleDensity(): 171
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -1.8011
+	 sharpness(): 2.26766
+	 eye0Open(): 1.87403
+	 eye1Open(): 2.21087
+	 eye0GazeFrontal(): -0.445132
+	 eye1GazeFrontal(): 0.382694
+	 eye0Tinted(): 12.1602
+	 eye1Tinted(): 12.3789
+	 poseAngleRoll(): 0.0909857
+	 deviationFromFrontalPose(): 0.774029
+	 isMale(): -0.668782
+	 age(): 3
+	 mouthClosed(): -1.13958
+	 glasses(): -1.40782
+	 eye0():  [ 124.367 , 191.693 ] 
+	 eye1():  [ 204.048 , 184.443 ] 
+	 eyeDistance(): 80.01
+	 faceCenter():  [ 164.207 , 188.068 ] 
+	 widthOfHead(): 162.91
+	 lengthOfHead(): 253.991
+	 chin(): 115.943
+	 crown(): 138.048
+	 ear0(): 84.2375
+	 ear1(): 78.6727
+	 face surrounding box: ((79, 50), (243, 305))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (124.655, 191.951); Right Eye: (203.66, 184.079)
+Mouth: (174.362, 255.95)
+Nasion: (167.149, 189.643), NoseTip: (170.983, 218.582)
+	 under18():  true
+Left Eye: (124.655, 191.951); Right Eye: (203.66, 184.079)
+Mouth: (174.362, 255.95)
+Nasion: (167.149, 189.643), NoseTip: (170.983, 218.582)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Passed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Failed 
+	 resolution():  Failed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Failed 
+	 isFrontalBestPractice():  Failed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Failed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 115.8 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 193 ) 
+	 leftBoundCenteredFace(): 0.45 ( 144.45 ) 
+	 rightBoundCenteredFace(): 0.55 ( 176.55 ) 
+	 minHeadWidth(): 180 ( 162.91 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.97041 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.51974 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A02.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A02.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 239.275 , 222.736 ] , width=98.4142, confidence=2.62772
+Found eyes: first  [ 187.497 , 223.826 ]  confidence=7.60788
+            second  [ 287.866 , 229.165 ]  confidence=7.60788
+Characteristics: 
+	 isColor():  false 
+	 width(): 412
+	 height(): 431
+	 numberOfFaces(): 1
+	 exposure(): 122.078
+	 grayScaleDensity(): 139
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -3.20947
+	 sharpness(): 1.14053
+	 eye0Open(): 1.4293
+	 eye1Open(): 2.4292
+	 eye0GazeFrontal(): 0.23005
+	 eye1GazeFrontal(): 0.138875
+	 eye0Tinted(): 17.3325
+	 eye1Tinted(): 10.8375
+	 poseAngleRoll(): -0.0531954
+	 deviationFromFrontalPose(): 0.362379
+	 isMale(): -0.0363835
+	 age(): 7
+	 mouthClosed(): 0.963021
+	 glasses(): -1.55745
+	 eye0():  [ 187.497 , 223.826 ] 
+	 eye1():  [ 287.866 , 229.165 ] 
+	 eyeDistance(): 100.51
+	 faceCenter():  [ 237.682 , 226.495 ] 
+	 widthOfHead(): 200.936
+	 lengthOfHead(): 317.287
+	 chin(): 162.089
+	 crown(): 155.198
+	 ear0(): 108.764
+	 ear1(): 92.1728
+	 face surrounding box: ((128, 71), (330, 389))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (186.939, 223.848); Right Eye: (288.365, 229.796)
+Mouth: (240.762, 314.988)
+Nasion: (245.108, 226.519), NoseTip: (248.908, 275.656)
+	 under18():  true
+Left Eye: (186.939, 223.848); Right Eye: (288.365, 229.796)
+Mouth: (240.762, 314.988)
+Nasion: (245.108, 226.519), NoseTip: (248.908, 275.656)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Failed 
+	 widthOfHead():  Failed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Failed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Failed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 129.3 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 215.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 185.4 ) 
+	 rightBoundCenteredFace(): 0.55 ( 226.6 ) 
+	 minHeadWidth(): 180 ( 200.936 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 2.0504 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.35839 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A05.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A05.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 210.445 , 251.313 ] , width=114.381, confidence=3.84536
+Found eyes: first  [ 154.09 , 254.357 ]  confidence=8.54191
+            second  [ 268.315 , 255.155 ]  confidence=8.54191
+Characteristics: 
+	 isColor():  false 
+	 width(): 417
+	 height(): 485
+	 numberOfFaces(): 1
+	 exposure(): 138.543
+	 grayScaleDensity(): 123
+	 hotSpots(): 0
+	 backgroundUniformity(): 1
+	 deviationFromUniformLighting(): -2.08673
+	 sharpness(): 1.56623
+	 eye0Open(): 2.72081
+	 eye1Open(): 2.87445
+	 eye0GazeFrontal(): 1.93872
+	 eye1GazeFrontal(): 2.06929
+	 eye0Tinted(): 14.9792
+	 eye1Tinted(): 5.34972
+	 poseAngleRoll(): -0.00698665
+	 deviationFromFrontalPose(): -0.513442
+	 isMale(): -0.230459
+	 age(): 10
+	 mouthClosed(): 1.90918
+	 glasses(): -2.29735
+	 eye0():  [ 154.09 , 254.357 ] 
+	 eye1():  [ 268.315 , 255.155 ] 
+	 eyeDistance(): 114.228
+	 faceCenter():  [ 211.202 , 254.756 ] 
+	 widthOfHead(): 226.315
+	 lengthOfHead(): 375.15
+	 chin(): 179.97
+	 crown(): 195.18
+	 ear0(): 111.761
+	 ear1(): 114.554
+	 face surrounding box: ((99, 59), (326, 435))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (154.2, 253.892); Right Eye: (268.643, 256.027)
+Mouth: (213.034, 361.388)
+Nasion: (213.646, 255.401), NoseTip: (212.318, 312.674)
+	 under18():  true
+Left Eye: (154.2, 253.892); Right Eye: (268.643, 256.027)
+Mouth: (213.034, 361.388)
+Nasion: (213.646, 255.401), NoseTip: (212.318, 312.674)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Failed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Passed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Failed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 145.5 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 242.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 187.65 ) 
+	 rightBoundCenteredFace(): 0.55 ( 229.35 ) 
+	 minHeadWidth(): 180 ( 226.315 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.84257 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.29282 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A08.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A08.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 166.005 , 239 ] , width=84.2361, confidence=3.75349
+Found eyes: first  [ 120.935 , 238.717 ]  confidence=5.17617
+            second  [ 211.97 , 243.741 ]  confidence=5.17617
+Characteristics: 
+	 isColor():  false 
+	 width(): 351
+	 height(): 451
+	 numberOfFaces(): 1
+	 exposure(): 147.848
+	 grayScaleDensity(): 178
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -0.668088
+	 sharpness(): 3.0916
+	 eye0Open(): 4.07436
+	 eye1Open(): 3.46198
+	 eye0GazeFrontal(): 1.77375
+	 eye1GazeFrontal(): 1.57112
+	 eye0Tinted(): 0.839181
+	 eye1Tinted(): -1.45322
+	 poseAngleRoll(): -0.0551908
+	 deviationFromFrontalPose(): -1.12782
+	 isMale(): 0.272294
+	 age(): 8
+	 mouthClosed(): 2.18273
+	 glasses(): -2.79023
+	 eye0():  [ 120.935 , 238.717 ] 
+	 eye1():  [ 211.97 , 243.741 ] 
+	 eyeDistance(): 91.1735
+	 faceCenter():  [ 166.452 , 241.229 ] 
+	 widthOfHead(): 189.61
+	 lengthOfHead(): 316.069
+	 chin(): 158.731
+	 crown(): 157.338
+	 ear0(): 95.2508
+	 ear1(): 94.3587
+	 face surrounding box: ((71, 83), (261, 400))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (120.474, 238.334); Right Eye: (212.076, 244.33)
+Mouth: (162.537, 333.053)
+Nasion: (169.348, 240.167), NoseTip: (165.976, 291.397)
+	 under18():  true
+Left Eye: (120.474, 238.334); Right Eye: (212.076, 244.33)
+Mouth: (162.537, 333.053)
+Nasion: (169.348, 240.167), NoseTip: (165.976, 291.397)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Passed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Failed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 135.3 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 225.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 157.95 ) 
+	 rightBoundCenteredFace(): 0.55 ( 193.05 ) 
+	 minHeadWidth(): 180 ( 189.61 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.85117 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.4269 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A10.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A10.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 157.442 , 208.275 ] , width=83.4917, confidence=2.73646
+Found eyes: first  [ 110.748 , 211.528 ]  confidence=4.56146
+            second  [ 199.573 , 205.835 ]  confidence=4.56146
+Characteristics: 
+	 isColor():  true 
+	 width(): 313
+	 height(): 409
+	 numberOfFaces(): 1
+	 exposure(): 112.432
+	 grayScaleDensity(): 145
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -1.93717
+	 sharpness(): 1.97727
+	 eye0Open(): 3.55661
+	 eye1Open(): 3.50145
+	 eye0GazeFrontal(): 1.76837
+	 eye1GazeFrontal(): 1.89392
+	 eye0Red(): 0.272179
+	 eye1Red(): 0.312805
+	 naturalSkinColour(): 1
+	 eye0Tinted(): 0.898148
+	 eye1Tinted(): -5.18954
+	 poseAngleRoll(): 0.0640876
+	 deviationFromFrontalPose(): -1.71748
+	 isMale(): -0.0470309
+	 age(): 18
+	 mouthClosed(): 1.80254
+	 glasses(): -1.69407
+	 eye0():  [ 110.748 , 211.528 ] 
+	 eye1():  [ 199.573 , 205.835 ] 
+	 eyeDistance(): 89.0074
+	 faceCenter():  [ 155.161 , 208.681 ] 
+	 widthOfHead(): 181.818
+	 lengthOfHead(): 315.572
+	 chin(): 157.455
+	 crown(): 158.117
+	 ear0(): 88.3491
+	 ear1(): 93.4686
+	 face surrounding box: ((66, 50), (249, 367))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (110.68, 212.06); Right Eye: (200.336, 205.618)
+Mouth: (163.217, 297.102)
+Nasion: (156.343, 208.648), NoseTip: (159.866, 264.165)
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 164.225 , 186.641 ] , width=73.5402, confidence=2.47839
+Found eyes: first  [ 124.367 , 191.693 ]  confidence=4.71941
+            second  [ 204.048 , 184.443 ]  confidence=4.71941
+Characteristics: 
+	 isColor():  false 
+	 width(): 321
+	 height(): 386
+	 numberOfFaces(): 1
+	 exposure(): 135.017
+	 grayScaleDensity(): 171
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -1.8011
+	 sharpness(): 2.26766
+	 eye0Open(): 1.87403
+	 eye1Open(): 2.21087
+	 eye0GazeFrontal(): -0.445132
+	 eye1GazeFrontal(): 0.382694
+	 eye0Tinted(): 12.1602
+	 eye1Tinted(): 12.3789
+	 poseAngleRoll(): 0.0909857
+	 deviationFromFrontalPose(): 0.774029
+	 isMale(): -0.668782
+	 age(): 3
+	 mouthClosed(): -1.13958
+	 glasses(): -1.40782
+	 eye0():  [ 124.367 , 191.693 ] 
+	 eye1():  [ 204.048 , 184.443 ] 
+	 eyeDistance(): 80.01
+	 faceCenter():  [ 164.207 , 188.068 ] 
+	 widthOfHead(): 162.91
+	 lengthOfHead(): 253.991
+	 chin(): 115.943
+	 crown(): 138.048
+	 ear0(): 84.2375
+	 ear1(): 78.6727
+	 face surrounding box: ((79, 50), (243, 305))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (124.655, 191.951); Right Eye: (203.66, 184.079)
+Mouth: (174.362, 255.95)
+Nasion: (167.149, 189.643), NoseTip: (170.983, 218.582)
+	 under18():  true
+Left Eye: (124.655, 191.951); Right Eye: (203.66, 184.079)
+Mouth: (174.362, 255.95)
+Nasion: (167.149, 189.643), NoseTip: (170.983, 218.582)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Passed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Failed 
+	 resolution():  Failed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Failed 
+	 isFrontalBestPractice():  Failed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Failed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 115.8 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 193 ) 
+	 leftBoundCenteredFace(): 0.45 ( 144.45 ) 
+	 rightBoundCenteredFace(): 0.55 ( 176.55 ) 
+	 minHeadWidth(): 180 ( 162.91 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.97041 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.51974 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A02.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A02.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 239.275 , 222.736 ] , width=98.4142, confidence=2.62772
+Found eyes: first  [ 187.497 , 223.826 ]  confidence=7.60788
+            second  [ 287.866 , 229.165 ]  confidence=7.60788
+Characteristics: 
+	 isColor():  false 
+	 width(): 412
+	 height(): 431
+	 numberOfFaces(): 1
+	 exposure(): 122.078
+	 grayScaleDensity(): 139
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -3.20947
+	 sharpness(): 1.14053
+	 eye0Open(): 1.4293
+	 eye1Open(): 2.4292
+	 eye0GazeFrontal(): 0.23005
+	 eye1GazeFrontal(): 0.138875
+	 eye0Tinted(): 17.3325
+	 eye1Tinted(): 10.8375
+	 poseAngleRoll(): -0.0531954
+	 deviationFromFrontalPose(): 0.362379
+	 isMale(): -0.0363835
+	 age(): 7
+	 mouthClosed(): 0.963021
+	 glasses(): -1.55745
+	 eye0():  [ 187.497 , 223.826 ] 
+	 eye1():  [ 287.866 , 229.165 ] 
+	 eyeDistance(): 100.51
+	 faceCenter():  [ 237.682 , 226.495 ] 
+	 widthOfHead(): 200.936
+	 lengthOfHead(): 317.287
+	 chin(): 162.089
+	 crown(): 155.198
+	 ear0(): 108.764
+	 ear1(): 92.1728
+	 face surrounding box: ((128, 71), (330, 389))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (186.939, 223.848); Right Eye: (288.365, 229.796)
+Mouth: (240.762, 314.988)
+Nasion: (245.108, 226.519), NoseTip: (248.908, 275.656)
+	 under18():  true
+Left Eye: (186.939, 223.848); Right Eye: (288.365, 229.796)
+Mouth: (240.762, 314.988)
+Nasion: (245.108, 226.519), NoseTip: (248.908, 275.656)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Failed 
+	 widthOfHead():  Failed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Failed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Failed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 129.3 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 215.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 185.4 ) 
+	 rightBoundCenteredFace(): 0.55 ( 226.6 ) 
+	 minHeadWidth(): 180 ( 200.936 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 2.0504 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.35839 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A05.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A05.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 210.445 , 251.313 ] , width=114.381, confidence=3.84536
+Found eyes: first  [ 154.09 , 254.357 ]  confidence=8.54191
+            second  [ 268.315 , 255.155 ]  confidence=8.54191
+Characteristics: 
+	 isColor():  false 
+	 width(): 417
+	 height(): 485
+	 numberOfFaces(): 1
+	 exposure(): 138.543
+	 grayScaleDensity(): 123
+	 hotSpots(): 0
+	 backgroundUniformity(): 1
+	 deviationFromUniformLighting(): -2.08673
+	 sharpness(): 1.56623
+	 eye0Open(): 2.72081
+	 eye1Open(): 2.87445
+	 eye0GazeFrontal(): 1.93872
+	 eye1GazeFrontal(): 2.06929
+	 eye0Tinted(): 14.9792
+	 eye1Tinted(): 5.34972
+	 poseAngleRoll(): -0.00698665
+	 deviationFromFrontalPose(): -0.513442
+	 isMale(): -0.230459
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 164.225 , 186.641 ] , width=73.5402, confidence=2.47839
+Found eyes: first  [ 124.367 , 191.693 ]  confidence=4.71941
+            second  [ 204.048 , 184.443 ]  confidence=4.71941
+Characteristics: 
+	 isColor():  false 
+	 width(): 321
+	 height(): 386
+	 numberOfFaces(): 1
+	 exposure(): 135.017
+	 grayScaleDensity(): 171
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -1.8011
+	 sharpness(): 2.26766
+	 eye0Open(): 1.87403
+	 eye1Open(): 2.21087
+	 eye0GazeFrontal(): -0.445132
+	 eye1GazeFrontal(): 0.382694
+	 eye0Tinted(): 12.1602
+	 eye1Tinted(): 12.3789
+	 poseAngleRoll(): 0.0909857
+	 deviationFromFrontalPose(): 0.774029
+	 isMale(): -0.668782
+	 age(): 3
+	 mouthClosed(): -1.13958
+	 glasses(): -1.40782
+	 eye0():  [ 124.367 , 191.693 ] 
+	 eye1():  [ 204.048 , 184.443 ] 
+	 eyeDistance(): 80.01
+	 faceCenter():  [ 164.207 , 188.068 ] 
+	 widthOfHead(): 162.91
+	 lengthOfHead(): 253.991
+	 chin(): 115.943
+	 crown(): 138.048
+	 ear0(): 84.2375
+	 ear1(): 78.6727
+	 face surrounding box: ((79, 50), (243, 305))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (124.655, 191.951); Right Eye: (203.66, 184.079)
+Mouth: (174.362, 255.95)
+Nasion: (167.149, 189.643), NoseTip: (170.983, 218.582)
+	 under18():  true
+Left Eye: (124.655, 191.951); Right Eye: (203.66, 184.079)
+Mouth: (174.362, 255.95)
+Nasion: (167.149, 189.643), NoseTip: (170.983, 218.582)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Passed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Failed 
+	 resolution():  Failed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Failed 
+	 isFrontalBestPractice():  Failed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Failed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 115.8 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 193 ) 
+	 leftBoundCenteredFace(): 0.45 ( 144.45 ) 
+	 rightBoundCenteredFace(): 0.55 ( 176.55 ) 
+	 minHeadWidth(): 180 ( 162.91 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.97041 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.51974 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A02.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A02.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 239.275 , 222.736 ] , width=98.4142, confidence=2.62772
+Found eyes: first  [ 187.497 , 223.826 ]  confidence=7.60788
+            second  [ 287.866 , 229.165 ]  confidence=7.60788
+Characteristics: 
+	 isColor():  false 
+	 width(): 412
+	 height(): 431
+	 numberOfFaces(): 1
+	 exposure(): 122.078
+	 grayScaleDensity(): 139
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -3.20947
+	 sharpness(): 1.14053
+	 eye0Open(): 1.4293
+	 eye1Open(): 2.4292
+	 eye0GazeFrontal(): 0.23005
+	 eye1GazeFrontal(): 0.138875
+	 eye0Tinted(): 17.3325
+	 eye1Tinted(): 10.8375
+	 poseAngleRoll(): -0.0531954
+	 deviationFromFrontalPose(): 0.362379
+	 isMale(): -0.0363835
+	 age(): 7
+	 mouthClosed(): 0.963021
+	 glasses(): -1.55745
+	 eye0():  [ 187.497 , 223.826 ] 
+	 eye1():  [ 287.866 , 229.165 ] 
+	 eyeDistance(): 100.51
+	 faceCenter():  [ 237.682 , 226.495 ] 
+	 widthOfHead(): 200.936
+	 lengthOfHead(): 317.287
+	 chin(): 162.089
+	 crown(): 155.198
+	 ear0(): 108.764
+	 ear1(): 92.1728
+	 face surrounding box: ((128, 71), (330, 389))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (186.939, 223.848); Right Eye: (288.365, 229.796)
+Mouth: (240.762, 314.988)
+Nasion: (245.108, 226.519), NoseTip: (248.908, 275.656)
+	 under18():  true
+Left Eye: (186.939, 223.848); Right Eye: (288.365, 229.796)
+Mouth: (240.762, 314.988)
+Nasion: (245.108, 226.519), NoseTip: (248.908, 275.656)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Failed 
+	 widthOfHead():  Failed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Failed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Failed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 129.3 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 215.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 185.4 ) 
+	 rightBoundCenteredFace(): 0.55 ( 226.6 ) 
+	 minHeadWidth(): 180 ( 200.936 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 2.0504 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.35839 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A05.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A05.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 210.445 , 251.313 ] , width=114.381, confidence=3.84536
+Found eyes: first  [ 154.09 , 254.357 ]  confidence=8.54191
+            second  [ 268.315 , 255.155 ]  confidence=8.54191
+Characteristics: 
+	 isColor():  false 
+	 width(): 417
+	 height(): 485
+	 numberOfFaces(): 1
+	 exposure(): 138.543
+	 grayScaleDensity(): 123
+	 hotSpots(): 0
+	 backgroundUniformity(): 1
+	 deviationFromUniformLighting(): -2.08673
+	 sharpness(): 1.56623
+	 eye0Open(): 2.72081
+	 eye1Open(): 2.87445
+	 eye0GazeFrontal(): 1.93872
+	 eye1GazeFrontal(): 2.06929
+	 eye0Tinted(): 14.9792
+	 eye1Tinted(): 5.34972
+	 poseAngleRoll(): -0.00698665
+	 deviationFromFrontalPose(): -0.513442
+	 isMale(): -0.230459
+	 age(): 10
+	 mouthClosed(): 1.90918
+	 glasses(): -2.29735
+	 eye0():  [ 154.09 , 254.357 ] 
+	 eye1():  [ 268.315 , 255.155 ] 
+	 eyeDistance(): 114.228
+	 faceCenter():  [ 211.202 , 254.756 ] 
+	 widthOfHead(): 226.315
+	 lengthOfHead(): 375.15
+	 chin(): 179.97
+	 crown(): 195.18
+	 ear0(): 111.761
+	 ear1(): 114.554
+	 face surrounding box: ((99, 59), (326, 435))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (154.2, 253.892); Right Eye: (268.643, 256.027)
+Mouth: (213.034, 361.388)
+Nasion: (213.646, 255.401), NoseTip: (212.318, 312.674)
+	 under18():  true
+Left Eye: (154.2, 253.892); Right Eye: (268.643, 256.027)
+Mouth: (213.034, 361.388)
+Nasion: (213.646, 255.401), NoseTip: (212.318, 312.674)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Failed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Passed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Failed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 145.5 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 242.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 187.65 ) 
+	 rightBoundCenteredFace(): 0.55 ( 229.35 ) 
+	 minHeadWidth(): 180 ( 226.315 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.84257 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.29282 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A08.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A08.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 166.005 , 239 ] , width=84.2361, confidence=3.75349
+Found eyes: first  [ 120.935 , 238.717 ]  confidence=5.17617
+            second  [ 211.97 , 243.741 ]  confidence=5.17617
+Characteristics: 
+	 isColor():  false 
+	 width(): 351
+	 height(): 451
+	 numberOfFaces(): 1
+	 exposure(): 147.848
+	 grayScaleDensity(): 178
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -0.668088
+	 sharpness(): 3.0916
+	 eye0Open(): 4.07436
+	 eye1Open(): 3.46198
+	 eye0GazeFrontal(): 1.77375
+	 eye1GazeFrontal(): 1.57112
+	 eye0Tinted(): 0.839181
+	 eye1Tinted(): -1.45322
+	 poseAngleRoll(): -0.0551908
+	 deviationFromFrontalPose(): -1.12782
+	 isMale(): 0.272294
+	 age(): 8
+	 mouthClosed(): 2.18273
+	 glasses(): -2.79023
+	 eye0():  [ 120.935 , 238.717 ] 
+	 eye1():  [ 211.97 , 243.741 ] 
+	 eyeDistance(): 91.1735
+	 faceCenter():  [ 166.452 , 241.229 ] 
+	 widthOfHead(): 189.61
+	 lengthOfHead(): 316.069
+	 chin(): 158.731
+	 crown(): 157.338
+	 ear0(): 95.2508
+	 ear1(): 94.3587
+	 face surrounding box: ((71, 83), (261, 400))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (120.474, 238.334); Right Eye: (212.076, 244.33)
+Mouth: (162.537, 333.053)
+Nasion: (169.348, 240.167), NoseTip: (165.976, 291.397)
+	 under18():  true
+Left Eye: (120.474, 238.334); Right Eye: (212.076, 244.33)
+Mouth: (162.537, 333.053)
+Nasion: (169.348, 240.167), NoseTip: (165.976, 291.397)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Passed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Failed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 135.3 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 225.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 157.95 ) 
+	 rightBoundCenteredFace(): 0.55 ( 193.05 ) 
+	 minHeadWidth(): 180 ( 189.61 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.85117 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.4269 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A10.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A10.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 157.442 , 208.275 ] , width=83.4917, confidence=2.73646
+Found eyes: first  [ 110.748 , 211.528 ]  confidence=4.56146
+            second  [ 199.573 , 205.835 ]  confidence=4.56146
+Characteristics: 
+	 isColor():  true 
+	 width(): 313
+	 height(): 409
+	 numberOfFaces(): 1
+	 exposure(): 112.432
+	 grayScaleDensity(): 145
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -1.93717
+	 sharpness(): 1.97727
+	 eye0Open(): 3.55661
+	 eye1Open(): 3.50145
+	 eye0GazeFrontal(): 1.76837
+	 eye1GazeFrontal(): 1.89392
+	 eye0Red(): 0.272179
+	 eye1Red(): 0.312805
+	 naturalSkinColour(): 1
+	 eye0Tinted(): 0.898148
+	 eye1Tinted(): -5.18954
+	 poseAngleRoll(): 0.0640876
+	 deviationFromFrontalPose(): -1.71748
+	 isMale(): -0.0470309
+	 age(): 18
+	 mouthClosed(): 1.80254
+	 glasses(): -1.69407
+	 eye0():  [ 110.748 , 211.528 ] 
+	 eye1():  [ 199.573 , 205.835 ] 
+	 eyeDistance(): 89.0074
+	 faceCenter():  [ 155.161 , 208.681 ] 
+	 widthOfHead(): 181.818
+	 lengthOfHead(): 315.572
+	 chin(): 157.455
+	 crown(): 158.117
+	 ear0(): 88.3491
+	 ear1(): 93.4686
+	 face surrounding box: ((66, 50), (249, 367))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (110.68, 212.06); Right Eye: (200.336, 205.618)
+Mouth: (163.217, 297.102)
+Nasion: (156.343, 208.648), NoseTip: (159.866, 264.165)
+	 under18():  true
+Left Eye: (110.68, 212.06); Right Eye: (200.336, 205.618)
+Mouth: (163.217, 297.102)
+Nasion: (156.343, 208.648), NoseTip: (159.866, 264.165)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Passed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 hasNaturalSkinColour():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 eyesNotRedBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 122.7 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 204.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 140.85 ) 
+	 rightBoundCenteredFace(): 0.55 ( 172.15 ) 
+	 minHeadWidth(): 180 ( 181.818 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.7215 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.29606 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A14.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A14.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: Intensity (Grayscale)
+pixel depth: 8
+Found face:  [ 289.502 , 393.957 ] , width=182.275, confidence=3.70463
+Found eyes: first  [ 192.597 , 397.239 ]  confidence=8.27682
+            second  [ 384.853 , 401.795 ]  confidence=8.27682
+Characteristics: 
+	 isColor():  false 
+	 width(): 639
+	 height(): 772
+	 numberOfFaces(): 1
+	 exposure(): 147.84
+	 grayScaleDensity(): 194
+	 hotSpots(): 0
+	 backgroundUniformity(): 1
+	 deviationFromUniformLighting(): -2.97525
+	 sharpness(): 3.41492
+	 eye0Open(): 3.51522
+	 eye1Open(): 3.48343
+	 eye0GazeFrontal(): 1.00491
+	 eye1GazeFrontal(): 1.81145
+	 eye0Tinted(): 6.60459
+	 eye1Tinted(): 4.56883
+	 poseAngleRoll(): -0.0236968
+	 deviationFromFrontalPose(): -0.459759
+	 isMale(): -0.289019
+	 age(): 18
+	 mouthClosed(): 2.56201
+	 glasses(): -1.14138
+	 eye0():  [ 192.597 , 397.239 ] 
+	 eye1():  [ 384.853 , 401.795 ] 
+	 eyeDistance(): 192.31
+	 faceCenter():  [ 288.725 , 399.517 ] 
+	 widthOfHead(): 375.004
+	 lengthOfHead(): 642.775
+	 chin(): 330.423
+	 crown(): 312.351
+	 ear0(): 163.139
+	 ear1(): 211.865
+	 face surrounding box: ((125, 87), (501, 730))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (193.211, 396.274); Right Eye: (385.361, 401.871)
+Mouth: (280.159, 605.749)
+Nasion: (282.37, 396.252), NoseTip: (270.644, 516.714)
+	 under18():  true
+Left Eye: (193.211, 396.274); Right Eye: (385.361, 401.871)
+Mouth: (280.159, 605.749)
+Nasion: (282.37, 396.252), NoseTip: (270.644, 516.714)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Failed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Passed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Passed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 231.6 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 386 ) 
+	 leftBoundCenteredFace(): 0.45 ( 287.55 ) 
+	 rightBoundCenteredFace(): 0.55 ( 351.45 ) 
+	 minHeadWidth(): 180 ( 375.004 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.70398 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.20104 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A16.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A16.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 221.278 , 225.343 ] , width=113.67, confidence=1.22217
+Found eyes: first  [ 160.803 , 230.603 ]  confidence=4.61871
+            second  [ 274.967 , 234.319 ]  confidence=4.61871
+Characteristics: 
+	 isColor():  true 
+	 width(): 444
+	 height(): 489
+	 numberOfFaces(): 1
+	 exposure(): 128.339
+	 grayScaleDensity(): 142
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -1.74593
+	 sharpness(): 1.95013
+	 eye0Open(): 2.70222
+	 eye1Open(): 3.31205
+	 eye0GazeFrontal(): 0.693198
+	 eye1GazeFrontal(): 0.965711
+	 eye0Red(): 0.410589
+	 eye1Red(): 0.503062
+	 naturalSkinColour(): 1
+	 eye0Tinted(): -9.0751
+	 eye1Tinted(): -12.8885
+	 poseAngleRoll(): -0.0325559
+	 deviationFromFrontalPose(): -0.474609
+	 isMale(): 0.421923
+	 age(): 23
+	 mouthClosed(): -0.707215
+	 glasses(): -2.44232
+	 eye0():  [ 160.803 , 230.603 ] 
+	 eye1():  [ 274.967 , 234.319 ] 
+	 eyeDistance(): 114.225
+	 faceCenter():  [ 217.885 , 232.461 ] 
+	 widthOfHead(): 219.105
+	 lengthOfHead(): 391.513
+	 chin(): 199.792
+	 crown(): 191.722
+	 ear0(): 115.598
+	 ear1(): 103.506
+	 face surrounding box: ((102, 40), (322, 433))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (159.817, 230.425); Right Eye: (275.419, 234.474)
+Mouth: (217.55, 338.636)
+Nasion: (221.773, 232.567), NoseTip: (220.17, 310.201)
+	 under18():  false 
+Left Eye: (159.817, 230.425); Right Eye: (275.419, 234.474)
+Mouth: (217.55, 338.636)
+Nasion: (221.773, 232.567), NoseTip: (220.17, 310.201)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Passed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Failed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Failed 
+	 lengthOfHeadBestPractice():  Failed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 hasNaturalSkinColour():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 eyesNotRedBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Failed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 146.7 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 244.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 199.8 ) 
+	 rightBoundCenteredFace(): 0.55 ( 244.2 ) 
+	 minHeadWidth(): 180 ( 219.105 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 2.02643 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.249 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A18.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A18.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 132.034 , 236.275 ] , width=104.099, confidence=1.35313
+Found eyes: first  [ 88.1612 , 244.537 ]  confidence=4.67458
+            second  [ 186.11 , 236.035 ]  confidence=4.67458
+Characteristics: 
+	 isColor():  true 
+	 width(): 384
+	 height(): 487
+	 numberOfFaces(): 1
+	 exposure(): 126.032
+	 grayScaleDensity(): 162
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -0.55606
+	 sharpness(): 2.94427
+	 eye0Open(): 3.10495
+	 eye1Open(): 2.98524
+	 eye0GazeFrontal(): 1.37205
+	 eye1GazeFrontal(): 1.36583
+	 eye0Red(): 0.950218
+	 eye1Red(): 1.17596
+	 naturalSkinColour(): 0.978974
+	 eye0Tinted(): 9.99446
+	 eye1Tinted(): 26.7526
+	 poseAngleRoll(): 0.0867948
+	 deviationFromFrontalPose(): 2.0661
+	 isMale(): 1.11781
+	 age(): 26
+	 mouthClosed(): 1.60782
+	 glasses(): -1.80597
+	 eye0():  [ 88.1612 , 244.537 ] 
+	 eye1():  [ 186.11 , 236.035 ] 
+	 eyeDistance(): 98.3169
+	 faceCenter():  [ 137.135 , 240.286 ] 
+	 widthOfHead(): 208.25
+	 lengthOfHead(): 348.636
+	 chin(): 182.538
+	 crown(): 166.098
+	 ear0(): 97.936
+	 ear1(): 110.314
+	 face surrounding box: ((39, 74), (248, 423))
+
+Portrait Feature: 
+	 ethnicity(): asian
+	 wearsGlasses():  false 
+Left Eye: (88.1063, 245.297); Right Eye: (185.138, 235.79)
+Mouth: (139.131, 361.732)
+Nasion: (119.348, 240.382), NoseTip: (107.687, 308.043)
+	 under18():  false 
+Left Eye: (88.1063, 245.297); Right Eye: (185.138, 235.79)
+Mouth: (139.131, 361.732)
+Nasion: (119.348, 240.382), NoseTip: (107.687, 308.043)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Passed 
+	 horizontallyCenteredFace():  Failed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Passed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 hasNaturalSkinColour():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Failed 
+	 isFrontalBestPractice():  Failed 
+	 isLightingUniform():  Failed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 eyesNotRedBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 146.1 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 243.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 172.8 ) 
+	 rightBoundCenteredFace(): 0.55 ( 211.2 ) 
+	 minHeadWidth(): 180 ( 208.25 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.84394 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.39687 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A19.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A19.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 192.717 , 234.086 ] , width=106.032, confidence=3.33471
+Found eyes: first  [ 138.383 , 242.861 ]  confidence=5.27923
+            second  [ 248.323 , 237.317 ]  confidence=5.27923
+Characteristics: 
+	 isColor():  true 
+	 width(): 436
+	 height(): 529
+	 numberOfFaces(): 1
+	 exposure(): 117.288
+	 grayScaleDensity(): 184
+	 hotSpots(): 0
+	 backgroundUniformity(): 1
+	 deviationFromUniformLighting(): -1.8783
+	 sharpness(): 4.00922
+	 eye0Open(): 2.94173
+	 eye1Open(): 2.63694
+	 eye0GazeFrontal(): 1.14297
+	 eye1GazeFrontal(): 1.67385
+	 eye0Red(): 0.555284
+	 eye1Red(): 0.578475
+	 naturalSkinColour(): 0.984401
+	 eye0Tinted(): -0.334711
+	 eye1Tinted(): 11.562
+	 poseAngleRoll(): 0.0504276
+	 deviationFromFrontalPose(): 0.8378
+	 isMale(): 0.565852
+	 age(): 29
+	 mouthClosed(): 1.88703
+	 glasses(): -1.87317
+	 eye0():  [ 138.383 , 242.861 ] 
+	 eye1():  [ 248.323 , 237.317 ] 
+	 eyeDistance(): 110.08
+	 faceCenter():  [ 193.353 , 240.089 ] 
+	 widthOfHead(): 230.658
+	 lengthOfHead(): 354.543
+	 chin(): 193.179
+	 crown(): 161.364
+	 ear0(): 108.359
+	 ear1(): 122.299
+	 face surrounding box: ((84, 78), (316, 434))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (138.711, 242.629); Right Eye: (248.468, 237.054)
+Mouth: (189.71, 352.411)
+Nasion: (185.562, 234.315), NoseTip: (179.189, 289.479)
+	 under18():  false 
+Left Eye: (138.711, 242.629); Right Eye: (248.468, 237.054)
+Mouth: (189.71, 352.411)
+Nasion: (185.562, 234.315), NoseTip: (179.189, 289.479)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Passed 
+	 horizontallyCenteredFace():  Failed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Failed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 hasNaturalSkinColour():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Passed 
+	 isFrontal():  Failed 
+	 isFrontalBestPractice():  Failed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 eyesNotRedBestPractice():  Failed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 158.7 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 264.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 196.2 ) 
+	 rightBoundCenteredFace(): 0.55 ( 239.8 ) 
+	 minHeadWidth(): 180 ( 230.658 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.89024 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.49206 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A22.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A22.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 225.123 , 248.582 ] , width=120.383, confidence=3.1717
+Found eyes: first  [ 162.966 , 252.535 ]  confidence=8.32603
+            second  [ 285.212 , 251.484 ]  confidence=8.32603
+Characteristics: 
+	 isColor():  true 
+	 width(): 408
+	 height(): 498
+	 numberOfFaces(): 1
+	 exposure(): 105.165
+	 grayScaleDensity(): 132
+	 hotSpots(): 0
+	 backgroundUniformity(): 1
+	 deviationFromUniformLighting(): -0.823038
+	 sharpness(): 2.89433
+	 eye0Open(): 3.55094
+	 eye1Open(): 3.10689
+	 eye0GazeFrontal(): 1.44367
+	 eye1GazeFrontal(): 1.6862
+	 eye0Red(): 0.100949
+	 eye1Red(): 0.092451
+	 naturalSkinColour(): 1
+	 eye0Tinted(): 6.4608
+	 eye1Tinted(): 2.4512
+	 poseAngleRoll(): 0.00860015
+	 deviationFromFrontalPose(): -1.28462
+	 isMale(): 0.55771
+	 age(): 27
+	 mouthClosed(): 1.37775
+	 glasses(): -2.12437
+	 eye0():  [ 162.966 , 252.535 ] 
+	 eye1():  [ 285.212 , 251.484 ] 
+	 eyeDistance(): 122.25
+	 faceCenter():  [ 224.089 , 252.01 ] 
+	 widthOfHead(): 241.378
+	 lengthOfHead(): 429.58
+	 chin(): 228.396
+	 crown(): 201.184
+	 ear0(): 122.554
+	 ear1(): 118.824
+	 face surrounding box: ((101, 50), (343, 481))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (164.347, 250.706); Right Eye: (285.45, 251.062)
+Mouth: (226.302, 378.151)
+Nasion: (227.201, 253.532), NoseTip: (226.815, 327.073)
+	 under18():  false 
+Left Eye: (164.347, 250.706); Right Eye: (285.45, 251.062)
+Mouth: (226.302, 378.151)
+Nasion: (227.201, 253.532), NoseTip: (226.815, 327.073)
+	 under21():  false 
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Failed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Passed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 hasNaturalSkinColour():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Passed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 eyesNotRedBestPractice():  Passed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 149.4 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 249 ) 
+	 leftBoundCenteredFace(): 0.45 ( 183.6 ) 
+	 rightBoundCenteredFace(): 0.55 ( 224.4 ) 
+	 minHeadWidth(): 180 ( 241.378 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.69029 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.15927 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A28.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A28.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 219.377 , 277.602 ] , width=145.853, confidence=3.48741
+Found eyes: first  [ 141.883 , 281.752 ]  confidence=8.64563
+            second  [ 291.694 , 278.869 ]  confidence=8.64563
+Characteristics: 
+	 isColor():  true 
+	 width(): 408
+	 height(): 563
+	 numberOfFaces(): 1
+	 exposure(): 111.145
+	 grayScaleDensity(): 162
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): 0.32664
+	 sharpness(): 4.56435
+	 eye0Open(): 3.29887
+	 eye1Open(): 2.77733
+	 eye0GazeFrontal(): 2.3254
+	 eye1GazeFrontal(): 2.09293
+	 eye0Red(): 0.0666788
+	 eye1Red(): 0.0757838
+	 naturalSkinColour(): 1
+	 eye0Tinted(): 16.1667
+	 eye1Tinted(): 11.3578
+	 poseAngleRoll(): 0.0192464
+	 deviationFromFrontalPose(): -1.37766
+	 isMale(): 0.936482
+	 age(): 30
+	 mouthClosed(): 1.34018
+	 glasses(): -2.05698
+	 eye0():  [ 141.883 , 281.752 ] 
+	 eye1():  [ 291.694 , 278.869 ] 
+	 eyeDistance(): 149.839
+	 faceCenter():  [ 216.788 , 280.311 ] 
+	 widthOfHead(): 300.628
+	 lengthOfHead(): 503.978
+	 chin(): 261.711
+	 crown(): 242.267
+	 ear0(): 148.694
+	 ear1(): 151.934
+	 face surrounding box: ((68, 38), (369, 543))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  false 
+Left Eye: (142.845, 281.679); Right Eye: (291.812, 278.796)
+Mouth: (222.613, 428.524)
+Nasion: (218.994, 277.999), NoseTip: (220.462, 370.442)
+	 under18():  false 
+Left Eye: (142.845, 281.679); Right Eye: (291.812, 278.796)
+Mouth: (222.613, 428.524)
+Nasion: (218.994, 277.999), NoseTip: (220.462, 370.442)
+	 under21():  false 
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Passed 
+	 horizontallyCenteredFace():  Passed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Failed 
+	 lengthOfHeadBestPractice():  Failed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Passed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 hasNaturalSkinColour():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Passed 
+	 isFrontalBestPractice():  Passed 
+	 isLightingUniform():  Failed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 eyesNotRedBestPractice():  Passed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 168.9 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 281.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 183.6 ) 
+	 rightBoundCenteredFace(): 0.55 ( 224.4 ) 
+	 minHeadWidth(): 180 ( 300.628 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.35716 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.11711 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A29.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A29.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 194.265 , 245.736 ] , width=155.98, confidence=1.36805
+Found eyes: first  [ 117.982 , 246.214 ]  confidence=5.97698
+            second  [ 274.507 , 235.075 ]  confidence=5.97698
+Characteristics: 
+	 isColor():  true 
+	 width(): 486
+	 height(): 589
+	 numberOfFaces(): 1
+	 exposure(): 126.466
+	 grayScaleDensity(): 188
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): -3.16744
+	 sharpness(): 6.39097
+	 eye0Open(): 3.63369
+	 eye1Open(): 2.9204
+	 eye0GazeFrontal(): 1.46703
+	 eye1GazeFrontal(): 1.53467
+	 eye0Red(): 0.102392
+	 eye1Red(): 0.0935492
+	 naturalSkinColour(): 0.935408
+	 eye0Tinted(): 16.8606
+	 eye1Tinted(): 39.8496
+	 poseAngleRoll(): 0.0711686
+	 deviationFromFrontalPose(): 1.93521
+	 isMale(): 0.58077
+	 age(): 35
+	 mouthClosed(): -1.66141
+	 glasses(): 3.2084
+	 eye0():  [ 117.982 , 246.214 ] 
+	 eye1():  [ 274.507 , 235.075 ] 
+	 eyeDistance(): 156.92
+	 faceCenter():  [ 196.244 , 240.644 ] 
+	 widthOfHead(): 319.84
+	 lengthOfHead(): 526.039
+	 chin(): 270.641
+	 crown(): 255.399
+	 ear0(): 150.784
+	 ear1(): 169.056
+	 face surrounding box: ((45, -15), (366, 512))
+
+Portrait Feature: 
+	 ethnicity(): white
+	 wearsGlasses():  true
+Left Eye: (118.023, 244.987); Right Eye: (274.281, 235.144)
+Mouth: (193.319, 406.609)
+Nasion: (172.329, 241.532), NoseTip: (163.478, 335.045)
+	 under18():  false 
+Left Eye: (118.023, 244.987); Right Eye: (274.281, 235.144)
+Mouth: (193.319, 406.609)
+Nasion: (172.329, 241.532), NoseTip: (163.478, 335.045)
+	 under21():  false 
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Passed 
+	 horizontallyCenteredFace():  Failed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Failed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Failed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Passed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 hasNaturalSkinColour():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Failed 
+	 isFrontalBestPractice():  Failed 
+	 isLightingUniform():  Passed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 eyesNotRedBestPractice():  Passed 
+	 noTintedGlasses():  Failed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Failed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 176.7 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 294.5 ) 
+	 leftBoundCenteredFace(): 0.45 ( 218.7 ) 
+	 rightBoundCenteredFace(): 0.55 ( 267.3 ) 
+	 minHeadWidth(): 180 ( 319.84 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.51951 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.11969 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A33.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A33.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
+Colormode: YCbCr (YUV)
+pixel depth: 24
+Found face:  [ 128.442 , 229.057 ] , width=96.688, confidence=1.73508
+Found eyes: first  [ 83.0925 , 236.08 ]  confidence=5.02318
+            second  [ 178.888 , 221.353 ]  confidence=5.02318
+Characteristics: 
+	 isColor():  true 
+	 width(): 362
+	 height(): 436
+	 numberOfFaces(): 1
+	 exposure(): 114.427
+	 grayScaleDensity(): 153
+	 hotSpots(): 0
+	 backgroundUniformity(): 0
+	 deviationFromUniformLighting(): 0.15285
+	 sharpness(): 3.53793
+	 eye0Open(): 3.50702
+	 eye1Open(): 2.3674
+	 eye0GazeFrontal(): 1.06583
+	 eye1GazeFrontal(): 1.48571
+	 eye0Red(): 0.0897558
+	 eye1Red(): 0.150232
+	 naturalSkinColour(): 1
+	 eye0Tinted(): 22.313
+	 eye1Tinted(): 27.5
+	 poseAngleRoll(): 0.153737
+	 deviationFromFrontalPose(): 1.83063
+	 isMale(): 0.603348
+	 age(): 38
+	 mouthClosed(): 1.53813
+	 glasses(): 1.37626
+	 eye0():  [ 83.0925 , 236.08 ] 
+	 eye1():  [ 178.888 , 221.353 ] 
+	 eyeDistance(): 96.9207
+	 faceCenter():  [ 130.99 , 228.716 ] 
+	 widthOfHead(): 204.581
+	 lengthOfHead(): 317.971
+	 chin(): 164.652
+	 crown(): 153.319
+	 ear0(): 91.4316
+	 ear1(): 113.149
+	 face surrounding box: ((39, 75), (245, 394))
+
+Portrait Feature: 
+	 ethnicity(): asian
+	 wearsGlasses():  true
+Left Eye: (83.1461, 237.282); Right Eye: (178.511, 219.805)
+Mouth: (140.662, 332.85)
+Nasion: (115.816, 229.044), NoseTip: (111.991, 296.367)
+	 under18():  false 
+Left Eye: (83.1461, 237.282); Right Eye: (178.511, 219.805)
+Mouth: (140.662, 332.85)
+Nasion: (115.816, 229.044), NoseTip: (111.991, 296.367)
+	 under21():  true
+
+FullFrontal compliance: 
+	 onlyOneFaceVisible():  Passed 
+	 goodVerticalFacePosition():  Failed 
+	 horizontallyCenteredFace():  Failed 
+	 widthOfHead():  Passed 
+	 lengthOfHead():  Passed 
+	 widthOfHeadBestPractice():  Passed 
+	 lengthOfHeadBestPractice():  Passed 
+	 resolution():  Passed 
+	 resolutionBestPractice():  Failed 
+	 imageWidthToHeightBestPractice():  Failed 
+	 goodExposure():  Passed 
+	 goodGrayScaleProfile():  Passed 
+	 hasNaturalSkinColour():  Passed 
+	 noHotSpots():  Passed 
+	 isBackgroundUniformBestPractice():  Failed 
+	 isFrontal():  Failed 
+	 isFrontalBestPractice():  Failed 
+	 isLightingUniform():  Failed 
+	 eyesOpenBestPractice():  Passed 
+	 eyesGazeFrontalBestPractice():  Passed 
+	 eyesNotRedBestPractice():  Passed 
+	 noTintedGlasses():  Passed 
+	 isSharp():  Passed 
+	 mouthClosedBestPractice():  Passed 
+
+Fullfrontal boundaries: 
+	 tintedGlassesThreshold(): 33
+	 wearsGlassesThreshold(): -0.8
+	 hotSpotsThreshold(): 0.5
+	 closedMouthThreshold(): 0.5
+	 minimalSharpness(): 1.64598
+	 eyesNotRedThreshold(): 0.18
+	 eyesGazeFrontalThreshold(): 0.5
+	 eyesOpenThreshold(): -0.67
+	 maxDeviationFromLighting(): -0.75
+	 poseMaxRotation(): 0.140541
+	 maxFrontalPoseDeviation(): 0.42
+	 minimalGrayScaleBounding(): 128
+	 highExposerThreshold(): 191.25
+	 lowExposerThreshold(): 63.75
+	 lowerBoundVerticalPosition(): 0.3 ( 130.8 ) 
+	 upperBoundVerticalPosition(): 0.5 ( 218 ) 
+	 leftBoundCenteredFace(): 0.45 ( 162.9 ) 
+	 rightBoundCenteredFace(): 0.55 ( 199.1 ) 
+	 minHeadWidth(): 180 ( 204.581 ) 
+	 minWidthOfHeadRatio(): 1.3333 ( 1.76947 ) 
+	 maxWidthOfHeadRatio(): 2
+	 minLengthOfHeadRatio(): 1.1111 ( 1.37119 ) 
+	 maxLengthOfHeadRatio(): 1.6666
+
+Acquired image /home/s2393832/datasets/FG_NET/001A40.JPG not compliant with ISO 19794-5 requirements
+Acquired image /home/s2393832/datasets/FG_NET/001A40.JPG not compliant with ISO 19794-5 requirements and recommendations of best practices
+Acquisition process done
