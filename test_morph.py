@@ -5,7 +5,7 @@ Created on Thu Nov 26 12:45:39 2020
 @author: murie
 """
 
-import facemorpher
+#import facemorpher
 import re
 import os, fnmatch
 import argparse
@@ -14,19 +14,19 @@ import cv2
 x = os.getcwd()
 
 # Get a list of image paths in a folder
-#path = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/"
-path = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project/datasets/FGNET/FGNET/images"
+path = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/"
+#path = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project/datasets/FGNET/FGNET/images"
 f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/subjects.csv', 'r')
 
 #imgpaths = facemorpher.list_imgpaths('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project/datasets/FGNET/FGNET/images')
-imgpaths = facemorpher.list_imgpaths('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/test')
+#imgpaths = facemorpher.list_imgpaths('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/test')
 #imgpaths = facemorpher.list_imgpaths('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/fransbauer')
 
 # To morph, supply an array of face images:
 #facemorpher.morpher(imgpaths, plot=True)
 
 # To average, supply an array of face images:
-facemorpher.averager(imgpaths, plot=True)
+#facemorpher.averager(imgpaths, plot=True)
 
 
 onder_10 = []
