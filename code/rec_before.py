@@ -48,16 +48,16 @@ def compare_img(Known, Test):
 (result, names) = find2('*.jpg', path)
 #(results, folders) = find2('/*', path)
 #print(names)
-count = 55
+count = 229
 distance = []
-countx_as = 0
+countx_as = 1
 x_as = []
 print(len(result))
 
-for known in result[55:len(result):4]:
-    print(result[count]+'\n')
-    print(known)
-    #known1 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/DBs/HQfps/119/_DSC0292.jpg"
+for known in result[228:len(result):4]:
+    #print(result[count]+'\n')
+    #print(known)
+    #known1 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/DBs/HQfps/81/_DSC0015.jpg"
     #compare = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/DBs/HQfps/119/_DSC0289.jpg"
     distance_same = compare_img(known, result[count]) # Same person
     distance.append(distance_same)
