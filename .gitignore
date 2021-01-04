@@ -9,6 +9,7 @@ datasets/
 images/
 DBs/
 SiblingsDB/
+CACD2000/
 *.caffemodel
 *.hdf5
 
