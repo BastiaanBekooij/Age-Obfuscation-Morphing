@@ -41,7 +41,7 @@ def age_det(name):
     return age
 
 def leeftijden_uit_CSV():
-    f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/subjects.csv', 'r')
+    f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/SiblingsDB/subjects.csv', 'r')
     x=[]
     for i in f:
         data = (i.split(" "))
@@ -51,8 +51,8 @@ def leeftijden_uit_CSV():
     f.close
     return x
 
-path = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/HQfps/"
-path2 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings2fotos/"
+path = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/SiblingsDB/HQfps/"
+path2 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/Siblings2fotos/"
 (result, names) = find2('*.jpg', path)
 actual_age = leeftijden_uit_CSV()
 print(actual_age)

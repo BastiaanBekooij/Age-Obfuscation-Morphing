@@ -10,6 +10,7 @@ images/
 DBs/
 SiblingsDB/
 CACD2000/
+Siblings2fotos/
 *.caffemodel
 *.hdf5
 
