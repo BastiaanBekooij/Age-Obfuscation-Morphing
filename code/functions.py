@@ -26,7 +26,7 @@ def find2(pattern, path):
 def average(pictures):
     facemorpher.averager(pictures, plot=True)
     
-def Morphing(orginele_foto, morph_foto):
+def morphing(orginele_foto, morph_foto):
     agender = PyAgender()
     faces = agender.detect_genders_ages(cv2.imread(orginele_foto))
     original_age = faces[0]['age']
@@ -35,26 +35,26 @@ def Morphing(orginele_foto, morph_foto):
     # Output is fotos in de folder /output
     
     
-def Age_estimation(foto):
+def age_estimation(foto):
     agender = PyAgender()
     faces = agender.detect_genders_ages(cv2.imread(foto))
-    Age = faces[0]['age']
-    return Age
+    age = faces[0]['age']
+    return age
     
-def Age_esstimation_group(foto_list):
-    Age_group_detected = []
-    Age_group_actual
+def age_estimation_group(foto_list):
+    age_group_detected = []
+    age_group_actual = []
     for x in foto_list:
-        Age = Age_estimation(x)
-        Age_group_detected.append(Age)
-        Age_group_actual.append(x.split("_")[1])
-    return Age_group_detected, Age_group_actual
+        age = age_estimation(x)
+        age_group_detected.append(age)
+        age_group_actual.append(x.split("_")[1])
+    return age_group_detected, age_group_actual
     
-def Face_recognition(Known, test):
-    known_image = face_recognition.load_image_file(Known)
+def Face_recognition(known, test):
+    known_image = face_recognition.load_image_file(known)
     face_encoding = face_recognition.face_encodings(known_image)[0]
     known_encodings = [face_encoding]
-    image_to_test = face_recognition.load_image_file(Test)
+    image_to_test = face_recognition.load_image_file(test)
     image_to_test_encoding = face_recognition.face_encodings(image_to_test)[0]
     face_distances = face_recognition.face_distance(known_encodings, image_to_test_encoding)
     
