@@ -1,11 +1,13 @@
 from pathlib import Path
+import os,sys,inspect
+sys.path.insert(0,'..')
 import cv2
 import dlib
 import numpy as np
 import argparse
 from contextlib import contextmanager
 from keras.utils.data_utils import get_file
-from model import get_model
+from age_estimation.model import get_model
 import os, fnmatch#, facemorpher
 import matplotlib.pyplot as plt
 
