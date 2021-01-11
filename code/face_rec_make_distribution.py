@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 #%matplotlib inline
 
-f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/data/before_rec_other_csv', 'r')
+f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/data/before_rec_other_v2_csv.txt', 'r')
 
 data = []
 dist2self = []
@@ -34,4 +34,4 @@ print(type(other))
 #gym = pd.DataFrame({'Distance to self': dist2self, 'Distance to other (no expression)': dist2otherNE, 'Distance to other (with expression)': dist2otherE})
 gym = pd.DataFrame({'Distance to other': other})
 #gym.groupby('dist2other_exp').count().plot(kind='bar')
-gym.plot.hist(bins=90, alpha=1)
+gym.plot.hist(bins=50, alpha=1)
