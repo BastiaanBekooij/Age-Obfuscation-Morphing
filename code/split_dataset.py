@@ -33,7 +33,7 @@ def find2(pattern, path):
                 else : 
                     result.append(os.path.join(root, name)) # Does not work on Windows
                 names.append(name)
-    return result, names, root
+    return result, names
 
 #def age_det(name):
 #    faces = agender.detect_genders_ages(cv2.imread(name))
@@ -57,7 +57,7 @@ def ages_from_CSV():
     f.close
     return x
 
-(result, names, root) = find2('*.jpg', path1)
+(result, names) = find2('*.png', path2)
 age = ages_from_CSV()
 #print(root)
 
