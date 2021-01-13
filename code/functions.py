@@ -13,6 +13,7 @@ from pyagender import PyAgender
 import cv2
 from PIL import Image
 import face_recognition
+import matplotlib.pyplot as plt
 
 
 def find2(pattern, path):
@@ -79,3 +80,27 @@ def after_morphing(morph, path):
         print(face_distance_after_morph)
         print(actual_age)
     return age_after_morph, face_distance_after_morph, actual_age
+
+def difference_between_morph_output(moprh, foto1, foto2):
+    morphing(foto1, morph)
+    result = find2("*.png", "output/")
+    result_sorted = sorted(result)
+    print(result)
+    age_estimate_different_morph = []
+    face_dist_different_morph = []
+    for i in result_sorted:
+        age_estimate = age_estimation(i)
+        face_dist = Face_recognition(foto2, i )
+        age_estimate_different_morph.append(age_estimate)
+        face_dist_different_morph.append(face_dist)
+        number_of_foto = list(range(1, 19))
+
+    plt.plot(number_of_foto, age_estimate_different_morph, 'ro')
+    plt.xlabel('Number of photo')
+    plt.ylabel('Age')
+
+    plt.figure()
+    plt.plot(number_of_foto, face_dist_different_morph, 'ro')
+    plt.xlabel('Number of photo')
+    plt.ylabel('Facedistance to same person')
+    return age_estimate_different_morph, face_dist_different_morph
