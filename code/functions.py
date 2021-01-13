@@ -27,9 +27,6 @@ def average(pictures):
     facemorpher.averager(pictures, plot=True)
     
 def morphing(orginele_foto, morph_foto):
-    agender = PyAgender()
-    faces = agender.detect_genders_ages(cv2.imread(orginele_foto))
-    original_age = faces[0]['age']
     pictures = [orginele_foto, morph_foto]
     facemorpher.morpher(pictures, plot=True, out_frames='output')
     # Output is fotos in de folder /output
@@ -64,3 +61,21 @@ def Face_recognition(known, test):
         print("- With a very strict cutoff of 0.5, would the test image match the known image? {}".format(face_distance < 0.5))
         print()
     return face_distance
+
+
+def after_morphing(morph, path):
+    age_after_morph = []
+    face_distance_after_morph = []
+    actual_age = []
+    result = find2("*_1.png", path)
+    for i in result:
+        morphing(i, morph)
+        age_estimate = age_estimation("output/frame009.png")
+        face_dist = Face_recognition(i.replace("_1.jpg", ".jpg"), "output/frame009.png" )
+        age_after_morph.append(age_estimate)
+        face_distance_after_morph.append(face_dist)
+        actual_age.append(int(i.split("_")[1]))
+        print(age_after_morph)
+        print(face_distance_after_morph)
+        print(actual_age)
+    return age_after_morph, face_distance_after_morph, actual_age
