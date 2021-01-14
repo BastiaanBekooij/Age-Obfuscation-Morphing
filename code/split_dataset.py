@@ -15,9 +15,9 @@ import random
 from PIL import Image
 import sys
 
-#agender = PyAgender()
-path1 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/SiblingsDB/DBs/HQfps"
-path2 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/Siblings2fotos/"
+path1 = "../SiblingsDB/DBs/HQfps"
+path2 = "../SiblingsDB/SiblingsDB_preprocessed/"
+
 
 def find2(pattern, path):
     result = []
@@ -35,19 +35,9 @@ def find2(pattern, path):
                 names.append(name)
     return result, names
 
-#def age_det(name):
-#    faces = agender.detect_genders_ages(cv2.imread(name))
-    #print(faces)
-#    if len(faces) == 0:
-#        age = 5000        
-#    else:
-#        age = faces[0]['age']
-    #print(age)
-#    return age
 
 def ages_from_CSV():
-    #f = open('/Users/ellen/Documents/Twente/Q2/Introduction to biometrics/Final/SiblingsDB/subjects.csv', 'r')
-    f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/SiblingsDB/subjects.csv', 'r')
+    f = open('../SiblingsDB/subjects.csv', 'r')
     x=[]
     for i in f:
         data = (i.split(" "))
@@ -57,16 +47,16 @@ def ages_from_CSV():
     f.close
     return x
 
-(result, names) = find2('*.png', path2)
+(result, names) = find2('*.jpg', path1)
 age = ages_from_CSV()
-#print(root)
+#print(result)
 
 count = 1
 print(len(result)) # nr of pictures is 4x nr of subjects  (which is 115)
 
 for i in result[:len(result):4]:
     #print(i)
-    subject_num = i.split("/")[12] # [x] depending on path
+    subject_num = i.split("/")[4] # [x] depending on path
     age_per = age[int(subject_num)-1]
     print("subject nr: ", subject_num,", age: ", age_per)
     
@@ -80,21 +70,6 @@ for i in result[:len(result):4]:
     im2.save(filename2, "png")
     count = count + 4
     
-
-#for i in result:
-#    age = age_det(i)
-#    if age != 5000:
-#        # Save picture
-#       Subject_num = i.split('/')[9]
-#        leeftijd_per = leeftijd[int(Subject_num)-1]
-#        print(Subject_num)
-#        print(leeftijd_per)
-#        im = Image.open(i)
-#        new_file_name = path2 + Subject_num + "_" + leeftijd_per + ".png"
-#        if os.path.exists(new_file_name):
-#            new_file_name = path2 + Subject_num + "_" + leeftijd_per + "_1.png"
-#        im.save(new_file_name, "png")
-        
         
         
         

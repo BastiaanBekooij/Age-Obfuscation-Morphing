@@ -7,7 +7,6 @@ Created on Thu Jan 14 12:07:24 2021
 
 import matplotlib.pyplot as plt
 import numpy as np
-#import scikitplot as skplt
 
 #f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/data/before_rec_csv', 'r')
 
@@ -46,8 +45,8 @@ for th in th_range:
     FP = 0
     FN = 0
     TN = 0
-    f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/data/before_rec_ADJUSTED_csv', 'r')
-
+    #f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/data/before_rec_ADJUSTED_csv', 'r')
+    f = open('../data/before_rec_ADJUSTED_csv', 'r')
     for i in f:
         data = i.split(';')
         #print("data: ", data[0])

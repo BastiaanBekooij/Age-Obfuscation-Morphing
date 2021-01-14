@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd
 #%matplotlib inline
 
-f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/data/before_rec_other_v2_csv.txt', 'r')
-
+#f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/data/before_rec_other_v2_csv.txt', 'r')
+f = open('../data/before_rec_other_v2_csv.txt', 'r')
 data = []
 dist2self = []
 dist2otherNE = []
