@@ -4,8 +4,12 @@ Created on Sat Jan  9 11:30:14 2021
 
 @author: Basti
 """
+import sys
+sys.path.append('..')
+
 
 import functions
+from age_estimation import estimate_age
 
 import os, fnmatch, facemorpher
 from pyagender import PyAgender
@@ -74,7 +78,7 @@ for idx, age_group in zip(range(0,len(age_groups)), age_groups):
             out_filename = f"../averages/average{age_group[0]}_{age_group[1]}_N{n}({i}).png"
             if not os.path.exists(out_filename):
                 facemorpher.averager(random.sample(result, n), plot=True, out_filename=out_filename)
-            age_average[n-1, idx] = age_average[n-1, idx] + int(functions.age_estimation(out_filename))
+            age_average[n-1, idx] = age_average[n-1, idx] + int(estimate_age.estimate_age(out_filename))
         print(f"Estimated age for average face with {n} images.")
     #print("Age: ", age_average)
     
