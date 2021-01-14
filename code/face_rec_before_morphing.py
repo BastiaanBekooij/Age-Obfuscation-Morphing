@@ -5,20 +5,21 @@ Created on Sat Jan  2 10:47:18 2021
 @author: murie
 """
 
-import os, fnmatch, facemorpher
-#from pyagender import PyAgender
-import cv2
-#import random
+import os, fnmatch
+#import cv2
 import numpy
 import matplotlib.pyplot as plt
-import random
-from PIL import Image
+#import random
+#from PIL import Image
 import face_recognition
+import sys
 
-#known = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/DBs/HQfps/227/_DSC2305.jpg"
-#known2 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/test/teun.jpg" 
-path = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/DBs/HQfps/"
-#path2 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/test/"
+#path = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/DBs/HQfps/"
+#path2 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/Siblings2fotos/"
+
+path = "../datasets/Siblings/DBs/HQfps/"
+path2 = "../SiblingsDB/SiblingsDB_preprocessed/"
+
 
 def find2(pattern, path):
     result = []
@@ -26,7 +27,13 @@ def find2(pattern, path):
     for root, dirs, files in os.walk(path):
         for name in files:
             if fnmatch.fnmatch(name, pattern):
-                result.append(os.path.join(root, name))
+                #print(sys.platform)
+                if sys.platform == 'win32':
+                    #result.append(os.path.join(root, name))
+                    result.append(os.path.join(root, name).replace("\\","/"))
+                    #result = os.path.normpath(test)
+                else : 
+                    result.append(os.path.join(root, name)) # Does not work on Windows
                 names.append(name)
     return result, names
 
@@ -45,39 +52,33 @@ def compare_img(Known, Test):
     #    print()
     return face_distance
 
-(result, names) = find2('*.jpg', path)
-#(results, folders) = find2('/*', path)
+(result, names) = find2('*.png', path2)
 #print(names)
+
 count = 1
 distance = []
 countx_as = 1
 x_as = []
-print(len(result))
+loop2 = 0
+loop1 = 0
+count4secondloop = 0
+stepsize = 10
 
-for known in result[:len(result):4]:
-    #print(result[count]+'\n')
-    #print(known)
-    #known1 = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/DBs/HQfps/81/_DSC0015.jpg"
-    #compare = "C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/datasets/Siblings/DBs/HQfps/119/_DSC0289.jpg"
-    distance_same = compare_img(known, result[count]) # Same person
-    distance.append(distance_same)
-    count = count + 4
-    countx_as = countx_as + 1
-    x_as.append(countx_as)
     
+for known in result[:len(result):2]:
+     loop1 = loop1 + 1
+     print('First loop: ', loop1)
+     count4secondloop = count4secondloop + 2
+     loop2 = 0
+     for compare in result[count4secondloop+1:len(result): stepsize]:
+         count = count + stepsize
+         distance_other = compare_img(known, compare) # Same person
+         distance.append(distance_other)
+         loop2 = loop2 + 1
+         print('Second loop: ', loop2)
 
-#face_dist_10 = compare_img(Known, path + "227/_DSC2307.jpg") # Same person
-#face_dist_20 = compare_img(Known, path + "227/_DSC2305.jpg") # Same image
-#face_dist_30 = compare_img(Known, path + "209/_DSC0898.jpg") # Different person
 
-#face_dist_10 = compare_img(known2, path2 + "dieuwertjeblok.jpg") # Same person
-#face_dist_20 = compare_img(known2, path2 + "mariken.jpg") # Same image
-#face_dist_30 = compare_img(known2, path2 + "teun2.jpg") # Different person
-
-#face_dist = [face_dist_10, face_dist_20, face_dist_30, face_dist_40, face_dist_50]
-#x_face = ["0-10", "10-20", "20-30", "30-40", "40-50"]
-
-#plt.plot(x_as, distance, 'ro')
-#plt.xlabel('Subject number')
-#plt.ylabel('Face distance')
-#plt.title("Images of same person with their face distance")
+plt.plot(np.arange(0, len(distance)), distance, 'ro')
+plt.xlabel('Subject')
+plt.ylabel('Distance')
+plt.title("Face distance of different persons")
