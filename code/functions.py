@@ -67,19 +67,27 @@ def Face_recognition(known, test):
 def after_morphing(morph, path):
     age_after_morph = []
     face_distance_after_morph = []
+    face_distance_before_morph =[]
     actual_age = []
+    age_before_morph = []
     result = find2("*_1.png", path)
+    save_name = morph.split("/")[-1].replace('.png','.npz')
     for i in result:
+        start = time.time()
         morphing(i, morph)
-        age_estimate = age_estimation("output/frame009.png")
-        face_dist = Face_recognition(i.replace("_1.jpg", ".jpg"), "output/frame009.png" )
-        age_after_morph.append(age_estimate)
-        face_distance_after_morph.append(face_dist)
+        age_after_morph.append(age_estimation("output/frame009.png"))
+        face_distance_after_morph.append(Face_recognition(i.replace("_1.png", ".png"), "output/frame009.png" ))
+        face_distance_before_morph.append(Face_recognition(i.replace("_1.png", ".png"), i ))
         actual_age.append(int(i.split("_")[1]))
+        age_before_morph.append(age_estimation(i))
         print(age_after_morph)
         print(face_distance_after_morph)
         print(actual_age)
-    return age_after_morph, face_distance_after_morph, actual_age
+        stop = time.time()
+        print(stop-start)
+    np.savez(save_name, age_after_morph=age_after_morph,age_before_morph=age_before_morph, actual_age=actual_age, face_dist_after = face_distance_after_morph, face_dist_before=face_distance_before_morph)
+   # Plots_print()
+    return age_after_morph, face_distance_after_morph, actual_age, face_distance_before_morph, age_before_morph
 
 def difference_between_morph_output(moprh, foto1, foto2):
     morphing(foto1, morph)
@@ -95,12 +103,23 @@ def difference_between_morph_output(moprh, foto1, foto2):
         face_dist_different_morph.append(face_dist)
         number_of_foto = list(range(1, 19))
 
-    plt.plot(number_of_foto, age_estimate_different_morph, 'ro')
+    plt.plot(number_of_foto, age_estimate_different_morph, 'o')
     plt.xlabel('Number of photo')
     plt.ylabel('Age')
 
     plt.figure()
-    plt.plot(number_of_foto, face_dist_different_morph, 'ro')
+    plt.plot(number_of_foto, face_dist_different_morph, 'o')
     plt.xlabel('Number of photo')
     plt.ylabel('Facedistance to same person')
     return age_estimate_different_morph, face_dist_different_morph
+
+def read_npz_after_morph(file):
+    x = np.load(file, mmap_mode='r')
+
+    actual_age = x['actual_age'] # Array with actual ages
+    age_after_morph = x['age_after_morph'] # Array with detected ages after morphing
+    age_before_morph = x['age_before_morph'] # Array with detected ages before morphing
+    face_dist_after = x['face_dist_after'] # Face distance after morphing
+    face_dist_before = x['face_dist_before'] # Face distance before morphing
+    
+    return actual_age, age_after_morph, age_before_morph, face_dist_after, face_dist_before
