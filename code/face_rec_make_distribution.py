@@ -10,7 +10,7 @@ import pandas as pd
 #%matplotlib inline
 
 #f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/data/before_rec_other_v2_csv.txt', 'r')
-f = open('../data/before_rec_other_v2_csv.txt', 'r')
+f = open('../data/before_rec_csv', 'r')
 data = []
 dist2self = []
 dist2otherNE = []
@@ -19,11 +19,11 @@ other = []
 
 for i in f:
     #print(i)
-    data = i.split('\n')
-    #print(data[0])
-    other.append(float(data[0]))
-    #dist2self.append(float(data[0]))
-    #dist2otherNE.append(float(data[1]))
+    data = i.split(';')
+    print(data)
+    #other.append(float(data[0]))
+    dist2self.append(float(data[0]))
+    dist2otherNE.append(float(data[1]))
     #dist2otherE.append(float(data[2]))
     f.close
 
@@ -31,7 +31,14 @@ print(type(other))
 #print(type(dist2self))
 #[float(i) for i in dist2self]
 #print(type(dist2self))
-#gym = pd.DataFrame({'Distance to self': dist2self, 'Distance to other (no expression)': dist2otherNE, 'Distance to other (with expression)': dist2otherE})
-gym = pd.DataFrame({'Distance to other': other})
+gym = pd.DataFrame({'Distance to self': dist2self, 'Distance to other (no expression)': dist2otherNE})
+#gym = pd.DataFrame({'Distance to other': other})
+#bins = np.arange(-10, 35, 2) #left margin, right margin, step size (years)
+#ArithmeticErrorgym.figure(figsize=(5,2.5), dpi=160)
+#plt.gcf().subplots_adjust(bottom=0.20)
 #gym.groupby('dist2other_exp').count().plot(kind='bar')
-gym.plot.hist(bins=50, alpha=1)
+gym.plot.hist(bins = 40, alpha=0.7)
+
+#bins = np.arange(-10, 35, 2) #left margin, right margin, step size (years)
+#plt.figure(figsize=(5,2.5), dpi=160)
+#plt.gcf().subplots_adjust(bottom=0.20)
