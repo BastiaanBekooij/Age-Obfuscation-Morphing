@@ -14,6 +14,7 @@ import cv2
 from PIL import Image
 import face_recognition
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def find2(pattern, path):
@@ -48,7 +49,7 @@ def age_estimation_group(foto_list):
         age_group_actual.append(x.split("_")[1])
     return age_group_detected, age_group_actual
     
-def Face_recognition(known, test):
+def face_recognition(known, test):
     known_image = face_recognition.load_image_file(known)
     face_encoding = face_recognition.face_encodings(known_image)[0]
     known_encodings = [face_encoding]
@@ -76,8 +77,8 @@ def after_morphing(morph, path):
         start = time.time()
         morphing(i, morph)
         age_after_morph.append(age_estimation("output/frame009.png"))
-        face_distance_after_morph.append(Face_recognition(i.replace("_1.png", ".png"), "output/frame009.png" ))
-        face_distance_before_morph.append(Face_recognition(i.replace("_1.png", ".png"), i ))
+        face_distance_after_morph.append(face_recognition(i.replace("_1.png", ".png"), "output/frame009.png" ))
+        face_distance_before_morph.append(face_recognition(i.replace("_1.png", ".png"), i ))
         actual_age.append(int(i.split("_")[1]))
         age_before_morph.append(age_estimation(i))
         print(age_after_morph)
@@ -98,7 +99,7 @@ def difference_between_morph_output(moprh, foto1, foto2):
     face_dist_different_morph = []
     for i in result_sorted:
         age_estimate = age_estimation(i)
-        face_dist = Face_recognition(foto2, i )
+        face_dist = face_recognition(foto2, i )
         age_estimate_different_morph.append(age_estimate)
         face_dist_different_morph.append(face_dist)
         number_of_foto = list(range(1, 19))
