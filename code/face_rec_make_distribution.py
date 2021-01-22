@@ -8,7 +8,8 @@ Created on Thu Jan  7 15:06:32 2021
 import numpy as np
 import pandas as pd
 #%matplotlib inline
-
+import matplotlib.pyplot as plt 
+  
 #f = open('C:/Users/murie/Documents/school/master/1B/Introduction2Biometrics/project_git/data/before_rec_other_v2_csv.txt', 'r')
 f = open('../data/before_rec_csv', 'r')
 data = []
@@ -31,14 +32,15 @@ print(type(other))
 #print(type(dist2self))
 #[float(i) for i in dist2self]
 #print(type(dist2self))
-gym = pd.DataFrame({'Distance to self': dist2self, 'Distance to other (no expression)': dist2otherNE})
-#gym = pd.DataFrame({'Distance to other': other})
-#bins = np.arange(-10, 35, 2) #left margin, right margin, step size (years)
-#ArithmeticErrorgym.figure(figsize=(5,2.5), dpi=160)
-#plt.gcf().subplots_adjust(bottom=0.20)
-#gym.groupby('dist2other_exp').count().plot(kind='bar')
-gym.plot.hist(bins = 40, alpha=0.7)
+#gym = pd.DataFrame({'Distance to self': dist2self, 'Distance to other (no expression)': dist2otherNE})
+#gym.plot.hist(bins = 40, alpha=0.5)
+
+bins = np.arange(-10, 35, 2) #left margin, right margin, step size (years)
+plt.figure(figsize=(5,2.5), dpi=160)
+plt.gcf()#.subplots_adjust(bottom=0.20)
+plt.show() 
 
 #bins = np.arange(-10, 35, 2) #left margin, right margin, step size (years)
 #plt.figure(figsize=(5,2.5), dpi=160)
 #plt.gcf().subplots_adjust(bottom=0.20)
+
