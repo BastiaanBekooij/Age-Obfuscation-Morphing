@@ -21,11 +21,8 @@ other = []
 for i in f:
     #print(i)
     data = i.split(';')
-<<<<<<< HEAD
     #print(data[0])
-=======
-    print(data)
->>>>>>> muriel4
+    #print(data)
     #other.append(float(data[0]))
     dist2self.append(float(data[0]))
     dist2otherNE.append(float(data[1]))
@@ -36,12 +33,10 @@ print(type(other))
 #print(type(dist2self))
 #[float(i) for i in dist2self]
 #print(type(dist2self))
-<<<<<<< HEAD
-gym = pd.DataFrame({'Distance to self': dist2self, 'Distance to other': dist2otherNE})
+#gym = pd.DataFrame({'Distance to self': dist2self, 'Distance to other': dist2otherNE})
 #gym = pd.DataFrame({'Distance to other': other})
 #gym.groupby('dist2other_exp').count().plot(kind='bar')
-gym.plot.hist(bins=50, alpha=0.6)
-=======
+#gym.plot.hist(bins=50, alpha=0.6)
 #gym = pd.DataFrame({'Distance to self': dist2self, 'Distance to other (no expression)': dist2otherNE})
 #gym.plot.hist(bins = 40, alpha=0.5)
 
@@ -60,5 +55,3 @@ plt.show()
 #bins = np.arange(-10, 35, 2) #left margin, right margin, step size (years)
 #plt.figure(figsize=(5,2.5), dpi=160)
 #plt.gcf().subplots_adjust(bottom=0.20)
-
->>>>>>> muriel4
