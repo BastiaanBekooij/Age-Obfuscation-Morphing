@@ -42,7 +42,7 @@ def ages_from_CSV():
     for i in f:
         data = (i.split(" "))
         data_split = (str(data).replace('"', ',').split(","))
-        age = data_split[4].replace('\\t','')
+        age = data_split[9].replace('\\t','') # [3] = M
         x.append(age)
     f.close
     return x
