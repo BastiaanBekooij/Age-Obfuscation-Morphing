@@ -15,6 +15,11 @@ _, _, _, face_dist_after30, _ = read_npz_after_morph("../Data_npz/average30_40_N
 _, _, _, face_dist_after40, _ = read_npz_after_morph("../Data_npz/average40_50_N3(0).npz")
 _, _, _, face_dist_after50, _ = read_npz_after_morph("../Data_npz/average50_60_N3(0).npz")
 
+print(np.mean(face_dist_after20))
+print(np.mean(face_dist_after30))
+print(np.mean(face_dist_after40))
+print(np.mean(face_dist_after50))
+
 
 once = True
 data = []
@@ -141,7 +146,7 @@ plt.plot(FPR, TPR_50, color='purple', label='Group 50-60')
 plt.plot([0, 1], [0, 1], color='darkblue', linestyle='--')
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
-plt.title('Receiver Operating Characteristic (ROC) Curve')
+#plt.title('Receiver Operating Characteristic (ROC) Curve')
 plt.legend()
 plt.show() 
 """
@@ -164,7 +169,9 @@ plt.show()
 """
 # Plot DET normal
 plt.figure(figsize=(5,2.5), dpi=160)
-plt.plot(FPR, FNMR, label='Before morphing')
+plt.yscale("log")
+plt.xscale("log")
+#plt.plot(FPR, FNMR, label='Before morphing')
 plt.plot(FPR, FNMR_20, color='yellow', label='Group 20-30')
 plt.plot(FPR, FNMR_30, color='green', label='Group 30-40')
 plt.plot(FPR, FNMR_40, color='red', label='Group 40-50')
@@ -172,10 +179,12 @@ plt.plot(FPR, FNMR_50, color='purple', label='Group 50-60')
 plt.plot([0, 1], [0, 1], color='darkblue', linestyle='--')
 plt.xlabel('False Positive Rate')
 plt.ylabel('False non-Match Rate')
-plt.title('Decision Error Trade-off (DET) curve')
+#plt.title('Decision Error Trade-off (DET) curve')
 plt.legend()
 plt.show() 
 
+
+"""
 # Plot DET zoomed in
 plt.figure(figsize=(5,2.5), dpi=160)
 plt.plot(FPR[ranges_l:ranges_h], FNMR_20[ranges_l:ranges_h], color='yellow', label='Group 20-30')
@@ -187,19 +196,27 @@ plt.ylabel('False non-Match Rate')
 plt.title('Decision Error Trade-off (DET) curve')
 plt.legend()
 plt.show() 
+"""
 
+face_dist_mean = []
 
+for i in range(len(face_dist_after20)):
+    print(face_dist_after20[i-1])
+    mean_array = (face_dist_after20[i], face_dist_after30[i], face_dist_after40[i], face_dist_after50[i])
+    face_dist_mean.append(np.mean(mean_array))
+    #face_dist_mean.append(np.mean(face_dist_after20[i], face_dist_after30[i]))#, int(face_dist_after40[i-1]), int(face_dist_after50[i-1])))
 
 
 bins = np.arange(0, 1, 0.02) #left margin, right margin, step size (years)
 plt.figure(figsize=(5,2.5), dpi=160)
 plt.gcf()#.subplots_adjust(bottom=0.20)
-plt.hist(face_dist_before_same, bins, alpha=0.5, label='Before morph same subject')
-plt.hist(face_dist_before_other, bins, alpha=0.5, label='Before morph other subject')
-plt.hist(face_dist_after20, bins, alpha=0.5, color = 'yellow', label='Group 20-30')
-plt.hist(face_dist_after30, bins, alpha=0.5, color = 'green', label='Group 30-40')
-plt.hist(face_dist_after40, bins, alpha=0.5, color = 'red', label='Group 40-50')
-plt.hist(face_dist_after50, bins, alpha=0.5, color = 'purple', label='Group 50-60')
+plt.hist(face_dist_before_same, bins, alpha=0.5, label='Same subject')
+plt.hist(face_dist_before_other, bins, alpha=0.5, label='Other subject')
+plt.hist(face_dist_mean, bins, alpha=0.5, label='Morph same subject')
+#plt.hist(face_dist_after20, bins, alpha=0.5, color = 'yellow', label='Group 20-30')
+#plt.hist(face_dist_after30, bins, alpha=0.5, color = 'green', label='Group 30-40')
+#plt.hist(face_dist_after40, bins, alpha=0.5, color = 'red', label='Group 40-50')
+#plt.hist(face_dist_after50, bins, alpha=0.5, color = 'purple', label='Group 50-60')
 plt.xlabel('Face distance')
 plt.ylabel('Amount')
 plt.legend()
