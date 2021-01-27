@@ -72,9 +72,9 @@ def after_morphing(morph, path, agender):
     # agender = PyAgender()
     result = find2("*_1.png", path)
     print(len(result))
-    morph1 = "../CACD2000/53_Dylan_Baker_0001.jpg"
-    morph2 = "../CACD2000/53_Fran_Drescher_0005.jpg"
-    morph3 = "../CACD2000/57_David_Hasselhoff_0005.jpg"
+    morph1 = "../CACD2000/42_Nikolaj_Coster-Waldau_0010.jpg"
+    morph2 = "../CACD2000/47_Mare_Winningham_0015.jpg"
+    morph3 = "../CACD2000/42_Paul_Rudd_0002.jpg"
     dist_morph1 = [None] * len(result)
     dist_morph2 = [None] * len(result)
     dist_morph3 = [None] * len(result)
@@ -85,14 +85,14 @@ def after_morphing(morph, path, agender):
         morphing(i, morph)
 
         dist_morph1[idx] = Face_recognition(morph1, "output/frame009.png" )
-        dist_morph1[idx] = Face_recognition(morph2, "output/frame009.png" )
-        dist_morph1[idx] = Face_recognition(morph3, "output/frame009.png" )
+        dist_morph2[idx] = Face_recognition(morph2, "output/frame009.png" )
+        dist_morph3[idx] = Face_recognition(morph3, "output/frame009.png" )
         # print(age_after_morph)
         # print(face_distance_after_morph)
         # print(actual_age)
         stop = time.time()
         print("Time: ", stop-start)
-    np.savez(save_name, age_after_morph=age_after_morph,age_before_morph=age_before_morph, actual_age=actual_age, face_dist_after = face_distance_after_morph, face_dist_before=face_distance_before_morph)
+    np.savez(save_name, dist_morph1 = dist_morph1, dist_morph2=dist_morph2, dist_morph3=dist_morph3)
    # Plots_print()
     #return age_after_morph, face_distance_after_morph, actual_age, face_distance_before_morph, age_before_morph
 
@@ -115,4 +115,4 @@ path = "/Users/ellen/Documents/GitHub/Age-Obfuscation-Morphing/SiblingsDB/Siblin
 #after_morphing("/Users/ellen/Documents/GitHub/Age-Obfuscation-Morphing/averages/average40_50_N3(0).png", path)
 #after_morphing("/Users/ellen/Documents/GitHub/Age-Obfuscation-Morphing/averages/average50_60_N3(0).png", path)
 #after_morphing("/Users/ellen/Documents/GitHub/Age-Obfuscation-Morphing/averages/average10_20_handpicked.png", path)
-after_morphing("/Users/ellen/Documents/GitHub/Age-Obfuscation-Morphing/averages/average50_60_handpicked.png", path, agender)
+after_morphing("/Users/ellen/Documents/GitHub/Age-Obfuscation-Morphing/averages/average40_50_handpicked.png", path, agender)
